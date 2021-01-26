@@ -31,6 +31,13 @@ const products = [
     countInStock: 4,
     rating: 0,
     numReviews: 0,
+    colors: [
+      "0XFFFFFFFF",
+      "0XFF54C682",
+      "0XFFEEE69A",
+      "0XFFC7D3D5",
+    ],
+    isActive: false
   },
   {
     name: 'Women\'s Hoodie Trendyol',
@@ -59,6 +66,12 @@ const products = [
     countInStock: 3,
     rating: 0,
     numReviews: 0,
+    colors: [
+      "0XFFFFFFFF",
+      "0XFF1E92BE",
+      "0XFFF27227",
+    ],
+    isActive: false
   },
   {
     name: 'Campri Junior Snow Boots',
@@ -82,6 +95,11 @@ const products = [
     countInStock: 2,
     rating: 0,
     numReviews: 0,
+    colors: [
+      "0XFF2F538F",
+      "0XFFC5437F",
+    ],
+    isActive: false
   },
   // {
   //   name: 'Sony Playstation 4 Pro White Version',

@@ -64,6 +64,8 @@ const productSchema = mongoose.Schema(
       required: true,
       default: 0,
     },
+    colors: [String],
+    isActive: Boolean
   },
   {
     timestamps: true,
